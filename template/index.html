@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="static/stylesheet.css">
 </head>
 <body>
-<nav class="navbar navbar-default">
+<nav class="navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <div class="navbar-brand">Tyree Stevenson</div>
@@ -25,34 +25,99 @@
     </ul>
   </div>
 </nav>
-<div class="bg"></div>
-<div class="jumbotron">
-</div>
+<div class="section group">
 <div id="page1">
   <a id="Home" class="smooth"></a>
-    About page content goes here.
+    <div class="jumbotron">
+</div>
 </div>
 
 <div id="page2">
   <a id="About" class="smooth"></a>
-    About page content goes here.
+    <h1>About</h1>
+    <p>Hello, My name is Tyree Stevenson and I am a Sophomore Computer Science Major from Cleveland, Ohio. I had a
+        pretty rough high school experience I was caught up trying to find out where I fit socially
+        and during that process, my grades began to suffer. However, during my senior year of high school
+        things started to change for the better. In October,  a Morehouse recruiter named Shawn Crosby
+        visited my school. Mr.Crosby was a Morehouse Alum and also an alum of my high school. After speaking
+        with Crosby, I became immediately interested in Morehouse. While attending the HBCU college fair, I
+        met two Morehouse men Jonathan Tyes and Marques Martin. After having breakfast, with them I became
+        completed sold on Morehouse. By a wing and a prayer, I was able to attend Morehouse the following school year.
+        During my first semester at Morehouse, I worked extremely hard to prove to myself and my family that I did not
+        waste this opportunity. I completed my Freshman year an 3.94 GPA and a summer internship with Google.
+        My internship with Google was amazing I was able to live in Seattle for a summer and visit California several times.
+        Exposing me to experiences and opportunities which I  thought I would never achieve.
+        Lastly, Morehouse has afforded me opportunities that I could never imagine and I cannot wait to see what else my
+        future will have in store. </p>
 </div>
 
 <div id="page3">
   <a id="Experience" class="smooth"></a>
-    Portfolio page content goes here.
+    <h1>Experience</h1>
+    <p>Worked on App Engine Flexible Environment Team to create comprehensive load and stress test for App Engine Flex,
+        using a video encoder which converted video files into 720p Mp4 files,modeled the video encoder with Cloud
+        Pub/Sub and Cloud Data Store for asynchronous data processing, and found and documented multiple usability
+        and performance and correctness bugs in Google App Engine and gcloud tooling.</p>
 </div>
 
 <div id="page4">
+    <h1>Projects</h1>
     <a id="Projects" class="smooth"></a>
-    Projects are here
+    <h2>MyLife</h2>
+    <a href="https://github.com/tyreest19/myLife">Code is here.</a>
+    <p>I created an IOS App that acts as a diary. The app allows users to upload a photo and a brief summary of their day.
+    </p>
+    <h2>Monster Feeder IOS Game</h2>
+    <a href="https://github.com/tyreest19/Monster_IOS_Game">Code is here.</a>
+    <p>I created an IOS game were the user has to contionouly feed a Monster. If the user stops feeding the Monster then
+    the monster will die and the user will start the game over.</p>
+    <h2>Tipster</h2>
+    <a href="https://github.com/tyreest19/tipster">Code is here.</a>
+    <p>I created an App which allows users to calculate a tip.</p>
+    <h2>Quick Twitter Messenger</h2>
+    <a href="https://github.com/tyreest19/quick-twitter-message-sender">Code is here.</a>
+    <p>I created a Desktop Application which allows the user to send twitter Messages from their Desktop.</p>
+    <h2>Multiple Image Editor</h2>
+    <a href="https://github.com/tyreest19/multiple_image_process">Code is here.</a>
+    <p>I created a C++ program which takes PPM P3 images. Then the user can decide weather to change the photos background,
+    subtract the photo's background, change the color into black and white, and converts black and white into a colored
+    image.</p>
+    <h2>Convert Color of PPM photo</h2>
+    <a href="https://github.com/tyreest19/convert_color_ppm_file">Code is here.</a>
+    <p>I created a C++ program which takes PPM P3 images. Then either converts those images into grayscale or a colored
+    photo.</p>
+    <h2>Tic Tac Toe</h2>
+    <a href="https://github.com/tyreest19/tic_tac_toe">Code is here.</a>
+    <p>I created a Tic Tac Toe game which allows the user to choose wether they're X or O. Then the user plays a
+    game of Tic Tac Toe against the AI I created.</p>
+    <h2>MicroProcessor</h2>
+     <a href="https://github.com/tyreest19/microprocessor">Code is here.</a>
+    <p>In my Computer Orginzations Class I created a mips MicroProcessor. This MicroProcessor takes hexidecimal instructions
+    and converts those instructions into binary. Then excutes the instructions.</p>
 </div>
 
 <div id="page5">
   <a id="Contact" class="smooth"></a>
-    Contact page content goes here.
+    <h1>Contact</h1>
+    <form action="/" method="post">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail" />
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+        <div class="button">
+        <button type="submit">Send your message</button>
+    </div>
+</form>
 </div>
-
+</div>
 </body>
 
 </html>
